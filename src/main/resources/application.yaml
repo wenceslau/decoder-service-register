@@ -1,0 +1,11 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: ead-service-register
+
+eureka:
+  client:
+    register-with-eureka: false # esse ms nao se registra em num server eureka
+    fetch-registry: false
